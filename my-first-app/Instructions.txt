@@ -1,40 +1,16 @@
 
-# AngularProjects
-Create your fist angular project  with README to help you to start from zero tto a  summy project witha textbox interaction and helps  you to understand the  basics of angular.
+# Project
+Create your first angular project  with README to help you to start from zero. Check Instructions.txt  to build  the  same project  from scratch and understand how angular works the  way it does by  following instructions. Please note  that this project is just a dummy project with just an input text element on screen interacting with the angular. The sole idea is only to undertand basics  of how angular works by following instructions.txt.
 
 # MyFirstApp
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.0.
 
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
-
 
 ##Installation procedures
 
 install nodejs from nodejs.org (npm comes automatically with it)
-Go to command promt
+Go to command prompt
 check node version with : `node -v`
 check npm version with : `npm -v`
 install angular command line interface by command : `npm install -g @angular/cli@latest` [note g is for global, @latest is optional which stands for latest version]
@@ -42,7 +18,7 @@ check angular cli version with : `ng --version`  [Note ng stands for angular]
 
 
 
-##Create first dummy ap
+##Create first dummy app
 
 Go to cmd
 Navigate to location where you want to create your project
@@ -65,9 +41,9 @@ Now go to the address in browser where app is hosted [Ex:-   locahost:4200 , the
 
 index.html is the main file which is loaded on server boot.
 index.html file then calls a custom tag <app-root> present in the body of index file.
-The configuration of app-root component is stored in app.component.ts in @component configuration
+The configuration of app-root component is stored in app.component.ts file under @component configuration
 Also its corresponding html file and css file also placed under same @component configuration
-Which inturns calls the corresponding html i.e app.commponent..html and css i.e app.compoonent.css and renders it as the body of index.html
+Which inturns calls the corresponding html i.e app.commponent.html and css i.e app.compoonent.css and renders it as the body of index.html
 
 But how this app-root is loaded in the  first place by angular, keep reading
 
@@ -102,12 +78,12 @@ Now any change  in input text  will automatically change the name value.   This 
 
 
 
-##install bootstarp to your project and  add to package.json
+##install bootstrap to your project and  add to package.json
 stop the server
 now type command
 1. `npm install --save bootstrap@3`  [Note  here  @3 represents version number  which is optional, avoiding which automatically installs latest version]
 
-Now check module node_modules->bootstrap->dist->css->bootstarp.min.css
+Now check module node_modules->bootstrap->dist->css->bootstrap.min.css
 This  is  where  your bootstrap css filee is.
 Now tell the  angular that  you want to use  this bootstrap css file in your index.html file  for styling by adding this  path in angular.json file under
 projects->my-first-app->architect->build->styles.
