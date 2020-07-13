@@ -1,6 +1,6 @@
 
 # AngularProjects
-Create your fist angular project  with README to help you to start from zero. Check Instructions.txt  to build  the  same project  from scratch and understand how angular works the  way it does by  following instructions. Please note  that this project is just a dummy project with just on input text item interacting with the angular. The sole idea is  to undertand how angular works by following instructions.txt only.
+Create your fist angular project  with README to help you to start from zero. Check Instructions.txt  to build  the  same project  from scratch and understand how angular works the  way it does by  following instructions. Please note  that this project is just a dummy project with just an input text element on screen interacting with the angular. The sole idea is only to undertand basics  of how angular works by following instructions.txt.
 
 # MyFirstApp
 
